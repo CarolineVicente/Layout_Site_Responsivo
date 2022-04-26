@@ -4,54 +4,59 @@
 <head>
   <meta charset="UTF-8">
   <title>Bikcrakft</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-  <img src="/img/bikcraft.svg" alt="Bikcraft">
-
-  <div class="navegacao">
-    <a href="/">Sobre</a>
-    <a href="/">Produtos</a>
-    <a href="/">Lojas</a>
-    <a href="/">Contato</a>
-  </div>
-
-  <div class="principal">
-  <div class="titulo">
-    <span class="detalhe"></span>
-    <h1>Bicicletas feitas a mão</h1>
-   <p>A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
-    <a class="vermais" href="/">VER MAIS</a>
-  </div>
-
-    <img src="/img/bicicleta.jpg" alt="">
-    
-    <h2 class="subtitulo">Vantagens Bikcraft</h2>
-
-    <div class="vantagens">
-      <div class="vantagens-item">
-        <img src="/img/eletrica.svg" alt="">
-        <h3>Motor Elétrico</h3>
-        <p>Permite você viajar distâncias inimagináveis com sua bike.</p>
+  <header class="header">
+    <img src="/img/bikcraft.svg" alt="Bikcraft">
+    <nav aria-label="primária">
+      <ul class="menu">
+        <li><a href="/">Sobre</a></li>
+        <li><a href="/">Produtos</a></li>
+        <li><a href="/">Lojas</a></li>
+        <li><a href="/">Contato</a></li>
+      </ul>
       </div>
-      <div class="vantagens-item">
-        <img src="/img/velocidade.svg" alt="">
-        <h3>40 km/hr</h3>
-        <p>A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
-      </div>
-      <div class="vantagens-item">
-        <img src="/img/rastreador.svg" alt="">
-        <h3>Rasterador</h3>
-        <p>Rastreador e sistema anti-furto para garantir seu sossego.</p>
-      </div>
-    </div>
-  </div>
+    </nav>
+  </header>
 
-  <div class="rodape">
-  <p>Bikcraft. Alguns Direitos Reservados.</p>
-  </div>
+  <main>
+    <article class="principal" aria-labelledby="label-introdução">
+      <div class="titulo">
+        <h1 class="introducao" id="label-introdução">Bicicletas Feitas a Mão</h1>
+        <p>A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
+        <a class="vermais" href="/">VER MAIS</a>
+      </div>
+        <img src="/img/bicicleta.jpg" alt=" bicicleta bikcraft preta">
+    </article>
 
-    </body>
+    <article class="items" aria-labelledby="label-vantagens">
+      <h2 class="subtitulo" id="label-Vantagens">Vantagens Bikcraft</h2>
+      <ul class="vantagens">
+        <li class="vantagens-item">
+          <img src="/img/eletrica.svg" alt="">
+          <h3>Motor Elétrico</h3>
+          <p>Permite você viajar distâncias inimagináveis com sua bike.</p>
+        </li>
+        <li class="vantagens-item">
+          <img src="/img/velocidade.svg" alt="">
+          <h3>40 km/hr</h3>
+          <p>A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
+        </li>
+        <li class="vantagens-item">
+          <img src="/img/rastreador.svg" alt="">
+          <h3>Rasterador</h3>
+          <p>Rastreador e sistema anti-furto para garantir seu sossego.</p>
+        </li>
+      </ul>
+    </article>
+  </main>
+
+  <footer class="rodape">
+    <p>Bikcraft. Alguns Direitos Reservados.</p>
+  </footer>
+
+</body>
+
 </html>
