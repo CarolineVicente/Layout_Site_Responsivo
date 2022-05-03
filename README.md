@@ -5,16 +5,19 @@ Para o exercício proposto seria necessário utilizar os conceitos aprendidos du
 
 Como o objeto é de estudo ele pode sofrer várias modificações 🛠
 
-Versão Inicial do meu estudo de layout. 
+Versão 1 do meu estudo de layout. 
 
 ![App Screenshot](img/telainicial_rev_0.png)
 
-Versão Final do meu estudo de layout. (26-04) 🎉
+Versão 2  26-04 
 
 (adição de tags semânticas, borda vermelha nos links do menu e algumas mudanças no design da página)
 
 ![App Screenshot](img/telainicial_rev_1.png)
 
+Versão Final 🎉 03-05
+
+(responsividade ao site)
 
 ## Documentação de cores 🖌
 
@@ -62,4 +65,3 @@ Inicie o servidor
 ## Licença
 
 Direitos Reservados a Origamid. 🐺
-
