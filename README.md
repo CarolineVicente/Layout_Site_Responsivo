@@ -33,35 +33,6 @@ Versão Final 🎉 03-05
 **Front-end:** HTML e CSS
 
 
-
-
-## Rodando localmente 💡
-
-Clone o projeto
-
-```bash
-  git clone https://link-para-o-projeto
-```
-
-Entre no diretório do projeto
-
-```bash
-  cd my-project
-```
-
-Instale as dependências
-
-```bash
-  npm install
-```
-
-Inicie o servidor
-
-```bash
-  npm run start
-```
-
-
 ## Licença
 
 Direitos Reservados a Origamid. 🐺
